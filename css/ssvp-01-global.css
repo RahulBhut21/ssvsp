@@ -1,0 +1,617 @@
+/*=======================================================================
+[01] Global STATS
+=========================================================================*/
+
+body {
+    font-family: 'Nunito', 'sans-serif';
+    /* font-family: 'Montserrat', 'sans-serif'; */
+    height: 100%;
+    background-color: #eee;
+    /* background-image: url(../img/pat2.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+	font-size: 18px;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Global CSS */
+
+.bg-blue {
+    background-color: #1874c3;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.half-width {
+    min-width: 50%;
+    width: 50%;
+}
+
+.m-toribotlef-0 {
+    margin: 0 auto;
+}
+
+.fr-auto {
+    float: right;
+}
+
+.mt-100 {
+    margin-top: -200px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.no-pad {
+    padding: 0 !important;
+}
+
+.pad-15 {
+    padding: 15px !important;
+}
+
+.elipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+.elipsis-7 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+	margin-bottom: 0;
+}
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 0;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 140% 120%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.btn-more-next {
+    background-image: linear-gradient(to right, #ff3333, #1874c3);
+    /*background-image: linear-gradient(to right top, #ff3333, #f5207a, #c848b0, #8066c9, #1874c3);*/
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.btn-tranparent{
+	display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+	background-color: transparent;
+    color: #fff;
+}
+
+.btn-tranparent:hover{
+	cursor:pointer;
+}
+
+.btn-tranparent:hover,
+.btn-tranparent:focus,
+.btn-tranparent:active{
+	box-shadow: unset;
+	border:unset;
+	outline: unset;
+}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+/* Global CSS */
+
+/* Mini Header */
+
+.mini-header {
+    background-color: #ff3333;
+    color: #fff;
+	
+	background-image: url(../img/header-bg-3.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.social-links {
+    float: left;
+}
+
+.social-links img {
+    width: 10%;
+}
+
+
+/* Mini Header */
+
+/* Navbar */
+
+#top-nav{}
+
+.navbar {
+    font-size: 20px;
+    padding: 15px 15px;
+}
+
+.nav-item a:hover{	
+	/*color: #ffc107 !important;*/
+	color: #ffe200 !important;
+}
+
+.nav-item a.btn-donate:hover{	
+	color: #fff !important;
+}
+
+.nav-item .active{
+	font-weight: bolder;
+	color: #ffe200 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.dropdown-menu{
+	border-radius: unset;
+}
+
+a.dropdown-item{
+	font-size: 18px;
+	padding: .5rem 1.5rem;
+}
+
+a.dropdown-item:hover{
+	background-color: #1784cd;
+}	
+
+.btn-donate {
+	font-weight: bolder;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+	margin-top: 5px;
+}
+
+.btn-donate:hover{
+	background-color: #ff1631;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	margin-top: 15px;
+}
+
+/* Navbar */
+
+/* Section Title */
+
+.section-title h1,
+.color-text h1 {
+    background-image: -webkit-gradient(linear-gradient(to right top, rgba(255, 22, 49, 0.8), rgba(24, 116, 195, 0.8)));
+    background-image: linear-gradient(to right top, rgba(255, 22, 49, 0.8), rgba(24, 116, 195, 0.8));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+    display: block;
+}
+
+
+.section-title .blog-subtitle {
+    display: inline-flex;
+    width: 100%;
+}
+
+.section-title .blog-subtitle label {
+    color: #1874c3;
+    margin-left: 10px;
+}
+
+.vertlin {
+    width: 3%;
+    position: relative;
+}
+
+.vertline-border {
+    content: "";
+    position: absolute;
+    border-top: 4px solid #ff1631;
+    line-height: 20px;
+    top: 10px;
+    height: 1px;
+    width: 90%;
+    margin-right: 10px;
+}
+
+/* Section Title */
+
+/* Varioous page banner images */
+
+.about-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/IMG_9935.JPG");
+}
+
+.about-member-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/IMG_9935.JPG");
+}
+
+.about-pathshala-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/IMG_9935.JPG");
+}
+
+.about-alumni-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/IMG_9935.JPG");
+}
+
+.gallery-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/gallery.png");
+}
+
+.blog-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/blog.png");
+}
+
+.admission-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/addmission.jpg");
+}
+
+.contact-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/Contact us.jpg");
+}
+
+.donate-banner {
+    background: linear-gradient(to right top, rgba(24, 116, 195, 0.5), rgba(255, 22, 49, 0.5)), url("../img/Donate.jpg");
+}
+
+/* Varioous page banner images */
+
+/* BANNER HEADER + BREADCRUMBS */
+
+.banner-header {
+    max-height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pad-100 {
+    padding: 40px;
+}
+
+.banner-header h1 {
+    padding: 2rem 1rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.breadcrumbs {
+    display: inline-flex;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.breadcrumbs-item {
+    padding-left: .5rem;
+}
+
+.breadcrumbs-item + .breadcrumbs-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    /*    color: #1874c3;*/
+    color: #fff;
+    content: "/";
+}
+
+.banner-header nav ol li a {
+    /*    color: #ff1631;*/
+    color: #fff;
+}
+
+.breadcrumbs-item.active {
+    /*    color: #1874c3;*/
+    color: #fff;
+}
+
+/* BANNER HEADER + BREADCRUMBS */
+
+/* BLOG Sidebar Gallery Area */
+
+.recent-post-wrapper {
+    margin: 50px 0;
+    background-color: #d1d1d1;
+    border-radius: 3px;
+    padding: 30px 30px 20px;
+}
+
+.small-post-wrapper {
+    width: 100%;
+    display: inline-flex;
+    margin: 10px 0;
+}
+
+.small-post-img-wrapper {
+    width: 20%;
+}
+
+.small-post-content-wrapper {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.small-post-content-wrapper label:first-child{
+	font-size: 14px;
+	white-space: nowrap !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.small-post-content-wrapper label {
+    display: block;
+    margin: 0;
+    font-weight: 500;
+}
+
+.small-post-content-wrapper label:not(:first-child) {
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.gallery-wrapper {
+    width: 100%;
+    margin: 10px 0;
+    display: inline-flex;
+    vertical-align: top;
+}
+
+.gallery-img-wrapper {
+    width: 33.33%;
+    padding: 5px;
+}
+
+.gallery-img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+/* BLOG Sidebar Gallery Area */
+
+/* Form CSS For Multiple Pages */
+
+#admission-details-pathshala input[type="text"],
+#donation input[type="text"],
+#donation input[type="email"],
+#contact-form input[type="text"],
+#contact-form input[type="email"]{
+	border: none;
+    border-bottom: 2px solid #1874c3;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+	height: 50px;
+}
+
+#admission-details-pathshala input[type="text"]:focus,
+#admission-details-pathshala textarea:focus,
+#donation input[type="text"]:focus,
+#donation input[type="email"]:focus,
+#donation textarea:focus,
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus
+{
+	border: none;
+    border-bottom: 2px solid #ff1631;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+
+#admission-details-pathshala textarea,
+#donation textarea,
+#contact-form textarea{
+	border: none;
+    border-bottom: 2px solid #1874c3;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+	resize:none;
+}
+
+#admission-details-pathshala select,
+#donation select{
+	border: none;
+    border: 2px solid #1874c3;	
+	height: 50px;
+    outline: none;
+    box-shadow: none;
+}
+
+#admission-details-pathshala select:focus{
+	border: 2px solid #ff1631;	
+}
+
+#admission-details-pathshala label,
+#donation label{
+	font-size: 18px;
+    font-weight: 700;
+}
+
+/* Form CSS For Multiple Pages (Admission, Donation and Contact) */
+
+/* Footer */
+
+#footer {
+    /*
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+*/
+}
+
+footer {
+	background: linear-gradient(to right, rgba(24, 116, 195, 1), rgba(24, 116, 195, 0.7)), url(../img/IMG_9820.JPG);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;	
+    
+    /* background: #0088b4; */
+    padding: 80px 0 30px;
+    color: #fff;
+}
+
+footer a:{
+	color: #FFF;
+}
+
+footer a:hover{
+	color: #ff1631;
+}
+
+footer .foo-img-div img {
+    width: 75%;
+}
+
+footer .foo-img-div p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+footer ul {
+    -webkit-padding-start: 0;
+}
+
+footer ul .pad-tp {
+    padding: 5px 0;
+}
+
+footer ul li ul {
+    display: inline-flex;
+    width: 100%;
+    -webkit-padding-start: 0;
+}
+
+footer ul li label {
+    display: block;
+}
+
+footer ul li ul li {
+    width: 33.33%;
+    color: #fff;
+}
+
+.response-fold {
+    display: inline-flex;
+}
+
+#mini-footer {
+    background-color: #2aa9d2;
+    padding: 15px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+#mini-footer p {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+/* Footer */
+
+/*=======================================================================
+[01] Global ENDS
+=========================================================================*/

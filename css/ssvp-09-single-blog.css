@@ -1,0 +1,84 @@
+/*=======================================================================
+[09] Full-Blog STARTS
+=========================================================================*/
+
+#full-blog .flexible {
+    display: inline-flex;
+    vertical-align: top;
+	width: 100%;
+}
+
+.full-blog-wrapper {
+    margin: 50px 0;
+    border-radius: 3px;
+}
+
+.full-blog-details {
+    background-color:#fff;
+	margin-bottom: 20px;
+}
+
+.full-blog-details label {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.full-blog-details .full-blog-date{
+	padding: 15px;	
+	margin: 0;
+}
+
+.full-blog-details .full-blog-date span{
+	display: block;
+}
+
+.full-blog-details .full-blog-date span.blog-day{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.full-blog-details .full-blog-date span.blog-month{
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.full-blog-title h1{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.full-blog-detail-wrapper{
+	padding: 15px;
+	background-color: #007bff;
+    color: #fff;
+    width: 100%;
+}
+
+.full-blog-detail-wrapper .full-blog-author{
+	text-transform:capitalize;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.full-blog-image img {
+    border-radius: 4px;
+    min-height: 400px;
+}
+
+.full-blog-des{
+	background-color: #fff;
+	margin-top: 15px;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.full-blog-share-area{
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+/*=======================================================================
+[09] Full-Blog ENDS
+=========================================================================*/

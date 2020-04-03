@@ -1,0 +1,55 @@
+/*=======================================================================
+[04] All Members STARTS
+=========================================================================*/
+
+#allmember{
+	margin: 30px 0;
+}
+
+.allmember-card{
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.member-logo-class{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.allmember-detail{
+	display: inline-flex;
+	width:100%;
+	margin-top: 30px;
+}
+
+.member-bg-around-red-33{
+	width:33.33%;
+	background-color: #ff1631;
+	margin: 10px 0;
+}
+
+/* Mostly Useless */
+.member-bg-around-red-33 .color-strip{
+	background-color:#ff1631;
+	margin: 15px 0;
+}
+
+.img-30{
+	width:33.33%;
+}
+/* Mostly Useless */
+
+.allmember-info{
+	padding: 15px;
+}
+
+.allmember-info p{
+	margin: 0;
+}
+
+/*=======================================================================
+[04] All Members ENDS
+=========================================================================*/

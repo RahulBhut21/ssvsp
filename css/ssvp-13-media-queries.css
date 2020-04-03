@@ -1,0 +1,262 @@
+/*=======================================================================
+[13] Media Queries STARTS
+=========================================================================*/
+
+/*  Xtra-Small Device Media Query */
+
+@media (min-width:320px) and (max-width:767px) {
+    .mini-header {
+        font-size: 11px;
+    }
+	.navbar .navbar-brand{
+		width: 20%;
+	}
+	#mini-header{
+		display: none;
+	}
+    .header-contact ul li {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+	.navbar-expand-lg .navbar-nav .dropdown-menu{
+		margin-top: 0;
+	}
+    .social-links,
+    .header-contact {
+        text-align: center;
+    }
+
+    .carousel-indicators {
+        bottom: 85px !important;
+    }
+
+    carousel-item h3,
+    .carousel-item p {
+        display: none;
+    }
+
+    .slok-card {
+        font-size: 0.7rem;
+        margin-top: -85px;
+        border-radius: 5px;
+    }
+
+    .slok-card pre {
+        color: #ff3333;
+        font-size: .8rem;
+    }
+	.sm-mb-30{
+		margin-bottom: 30px;	
+	}
+	#trustee{
+		padding: 60px 0 30px;
+	}
+	
+	#mission-vision,
+	#quick-view,
+	#blog{
+		padding: 30px 0;
+	}
+    .banner-header .pad-100 {
+        padding: unset;
+    }
+
+    .contact-head p {
+        font-size: 1.5em;
+    }
+
+    .contact-head h1 {
+        font-size: 2.5em;
+    }
+
+    .contact-card .fa-2x {
+        font-size: 1.8em;
+    }
+
+    footer ul li ul li {
+        text-align: center;
+    }
+
+    .more-dec {
+        overflow: hidden;
+    }
+
+    .more-dec h1 {
+        font-size: 1.8em;
+    }
+
+    .more-dec ul li {
+        font-size: 0.8em;
+    }
+
+    .contact-header-info-card .pad-15 {
+        margin: 15px;
+    }
+
+    .more-dec label {
+        font-size: 60px;
+    }
+
+    .response-fold {
+        display: inline-flex;
+        vertical-align: top;
+        width: 100%;
+        margin: 20px 0 10px;
+    }
+}
+
+/* Xtra-Small Device Media Query */
+
+/* Small Device Media Query */
+
+@media (min-width:576px) and (max-width:767px) {
+    .mini-header {
+        font-size: 13 px;
+    }
+
+    .carousel-indicators {
+        bottom: 73 px !important;
+    }
+
+    .slok-card {
+        font-size: .9rem;
+        margin-top: -73px;
+        border-radius: 5px;
+    }
+
+    .slok-card pre {
+        color: #ff3333;
+        font-size: 1rem;
+    }
+
+    .banner-header .pad-100 {
+        padding: 50px;
+    }
+
+    .contact-card {
+        margin-top: -50%;
+    }
+}
+
+/* Small Device Media Query */
+
+/* Medium Device Media Query */
+
+@media (min-width:768px) and (max-width:991px) {
+    .mini-header {
+        font-size: 14px;
+        display: none;
+    }
+	.navbar-expand-md .navbar-brand{
+		width:10%;
+	}
+    .carousel-indicators {
+        bottom: 105px !important;
+    }
+	.md-mb-50{
+		margin-bottom: 50px;
+	}
+    .slok-card {
+        font-size: 1.1rem;
+        margin-top: -105px;
+        border-radius: 5px;
+    }
+
+    carousel-item h3,
+    .carousel-item p {
+        display: none;
+    }
+
+    .slok-card pre {
+        color: #ff3333;
+        font-size: 1.2rem;
+    }
+	.blog-card img{
+		width: 100%;
+		height: auto;
+	}
+    #contact-form ul li {
+        font-size: 14px;
+    }
+
+    .contact-header-info-card .pad-15 {
+        margin: 15px;
+    }
+
+    .contact-head p {
+        font-size: 1.5em;
+    }
+
+    .contact-head h1 {
+        font-size: 2.5em;
+    }
+
+    #contact-form ul hr {
+        width: 100%;
+    }
+}
+
+/* Medium Device Media Query */
+
+/* Large Device Media Query */
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .carousel-indicators {
+        bottom: 103px !important;
+    }
+
+    .slok-card {
+        font-size: 1.1rem;
+        margin-top: -103px;
+        border-radius: 5px;
+    }
+
+    carousel-item h3,
+    .carousel-item p {
+        display: none;
+    }
+
+    .navbar-brand {
+        visibility: hidden;
+    }
+
+    .more-dec ul li {
+        font-size: 0.8em;
+    }
+
+    .more-dec label {
+        font-size: 60px;
+    }
+
+    .contact-head h1 {
+        font-size: 3.0em;
+    }
+}
+
+/* Large Device Media Query */
+
+@media (min-width:992px) and (max-width:4000px) {
+    .navbar .navbar-brand {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/*=======================================================================
+[13] Media Queries ENDS
+=========================================================================*/
+
+/* TODO : Major Thing Is To SEE RESPONSIVE */
+/* TODO : Change Footer Code In Every HTML page after merging css of contat and style */
+/* TODO : Home page add testimonial. -- DONE(Need to change.)*/
+/* TODO : Complete logo. */
+/* TODO : Header with dropdown and changes. */
+
+/* TODO : Button Background change on hover effect -- DONE*/
+/* TODO : button hover effect with shine. --DONE  */
+/* TODO : A link color on home page or other pages maybe. -- DONE */
+/* TODO : Home page background white color changes. -- DONE */
+/* TODO : Gallery Need more attractive look -- DONE */
+/* TODO : Blog Page changes color etc. -- DONE */
+/* TODO : Blog Page color and background  -- DONE */

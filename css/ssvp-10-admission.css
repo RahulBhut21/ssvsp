@@ -1,0 +1,76 @@
+/*=======================================================================
+[10] Admission STARTS
+=========================================================================*/
+
+#admission-details-pathshala{
+	margin: 50px 0;
+}
+
+#student-quote{
+	margin-top: 50px;
+}
+
+#admission-details-pathshala .admission-area{
+	background-color: #1874c3;
+	height: 100%;
+	overflow:hidden;
+	position: relative;	
+}
+
+#admission-details-pathshala .admission-area h1{
+	margin: 0;
+    padding: 0;
+	color: #fff;
+	font-size: 110px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+#admission-details-pathshala .admission-area h1{
+    position: absolute;
+    transform: rotate(-90deg) translateX(-100%) translateY(100%);
+    -webkit-transform: rotate(-90deg) translateX(-100%) translateY(100%);
+    -moz-transform: rotate(-90deg) translateX(-100%) translateY(100%);
+    -o-transform: rotate(-90deg) translateX(-100%) translateY(100%);
+    -ms-transform: rotate(-90deg) translateX(-100%) translateY(100%);
+    transform-origin: left center 0;
+    -webkit-transform-origin: left center 0;
+    -moz-transform-origin: left center 0;
+    -o-transform-origin: left center 0;
+    -ms-transform-origin: left center 0;
+}
+
+#admission-details-pathshala .admission-form-arena{
+	background-color: #fff;
+    padding: 80px;
+	 -moz-box-shadow:    inset 0 0 10px #1874c3;
+   -webkit-box-shadow: inset 0 0 10px #1874c3;
+   box-shadow:         inset 0 0 10px #1874c3;
+}
+
+.custom-admission-card{
+	padding:40px;
+	margin: 20px 0;
+}
+
+.admission-education-detail,
+.admission-bank-detail{
+	margin: 50px 0 20px;
+}
+
+.admission-label{
+	color: #fff;
+    background-color: #ff1631;
+    padding: 5px 10px;
+    margin-left: -40px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.admission-marks{
+	margin: 20px 0 10px;
+}
+
+/*=======================================================================
+[10] Admission ENDS
+=========================================================================*/

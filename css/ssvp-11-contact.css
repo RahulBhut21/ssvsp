@@ -1,0 +1,140 @@
+/*=======================================================================
+[11] Contact STARTS
+=========================================================================*/
+
+/* More Detail */
+
+#contact-more-detail {
+    margin-top: 50px;
+}
+
+.contact-header-info-card {
+    background-color: #fff;
+    padding: 15px;
+    color: #ff1631;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 25px 5px rgba(0, 136, 180, 0.5);
+    border-radius: 3px;
+    border-top: 3px solid #ff1631;
+    transition: 0.2s;
+    transition-duration: 0.3s;
+}
+
+.contact-header-info-card:hover {
+    box-shadow: unset;
+    margin-top: -10px;
+    transition: 0.2s;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 25px 10px rgba(255, 0, 0, 0.1);
+}
+
+.contact-header-img img {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.contact-more-detail-content ul {
+    padding-left: 20px;
+}
+
+.contact-more-detail-content ul li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+.contact-more-detail-content label {
+    font-size: 80px;
+    display: block;
+    text-align: center;
+}
+
+/* More Detail */
+
+/* Contact Form*/
+
+#contact-form {    
+	margin: 50px 0;
+}
+
+#contact-form ul li {
+    display: inline-flex;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#contact-form ul hr {
+    width: 70%;
+    float: left;
+    height: 10px;
+}
+
+#contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-card {
+    background: #fff;
+    box-shadow: 0px 0px 25px 5px rgba(0, 136, 180, 0.5);
+    /* margin-top: -150px; */
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 3px solid #ff1631;
+}
+
+.contact-card hr {
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+.contact-card ul {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.contact-card ul li p {
+    margin-left: 20px;
+    overflow: hidden;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.contact-head {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.contact-head p {
+    font-size: 2em;
+    margin: 0;
+}
+
+.contact-head h1 {
+    font-size: 3.5em;
+}
+
+.contact-custom-input-group {
+    margin: 30px 0;
+    outline: unset;
+}
+
+.contact-custom-input-group:first-child {
+    margin: 0;
+}
+
+.form-control:focus {
+    outline: unset !important;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: unset !important;
+    outline: 0;
+}
+
+/* Contact Form*/
+
+/*=======================================================================
+[11] Contact STARTS
+=========================================================================*/

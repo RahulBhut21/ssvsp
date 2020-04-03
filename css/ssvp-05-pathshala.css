@@ -1,0 +1,122 @@
+/*=======================================================================
+[05] Pathshala STATS
+=========================================================================*/
+
+#pathshala-old-detail{
+	margin: 60px 0 30px;
+}
+
+.pathshala-old-detail h2{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.pathshala-old-detail p,
+#pathshala-starting-content p,
+#pathshala-middle-content p,
+.pathshala-rules-page p,
+#pathshala-last-current-with-video p{
+	font-size: 18px;
+}
+
+#pathshala-quote,
+#pathshala-starting-content,
+#pathshala-middle-content,
+#pathshala-Rules,
+#pathshala-last-current-with-video,
+#pathshala-facility{
+	padding: 30px 0;
+}
+
+.pathshala-quote-card{
+	padding: 30px 50px;
+	width: 100%;
+	background: linear-gradient(to right top, rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)), url(../img/720X4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+}
+
+.pathshala-quote-card p{
+	font-size: 30px;
+	font-family: Montserrat;
+	font-weight: 600;
+	color: #fff;
+}
+
+.pathshala-rules-title{
+	padding: 15px;
+	background-color: #fff;
+	width: 100%;
+	border: 2px solid #1874c3;
+	border-right: unset;
+	border-radius: 5px;
+	border-top-right-radius:unset;
+	border-bottom-right-radius:unset;
+	margin-top: 20px;
+}
+
+.pathshala-rules-title h2{
+	font-size: 30px;
+	text-align: right;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.pathshala-rules-page{
+	background-color: #fff;
+	border: 5px solid #1874c3;
+	width: 100%;
+	padding: 15px;
+}
+
+.pathshala-rules-page label{
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.pathshala-rules-page h2,
+#pathshala-facility h2{
+	font-size: 50px;	
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.pathshala-rules-page p{
+	font-weight: 500;
+}
+
+.pathshala-facility-card{
+	padding: 20px 0 0;
+}
+
+.pathshala-facility-second-card{
+	padding: 20px 0 0;
+	margin-top: 60px;
+}
+
+.pathshala-facility-card h3,
+.pathshala-facility-second-card h3{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 34px;
+	color: #ff1631;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 150px;
+    margin: 0;
+	color: #1874c3;
+}
+
+/*=======================================================================
+[05] Pathshala ENDS
+=========================================================================*/

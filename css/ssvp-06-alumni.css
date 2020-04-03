@@ -1,0 +1,97 @@
+/*=======================================================================
+[06] Alumni STARTS
+=========================================================================*/
+
+#alumni{
+	margin: 30px 0;
+}
+.alumni-card{
+	background-color:#fff;
+	border-radius: 3px;
+	border: 1px solid;
+	display: inline-flex;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.alumni-profile{
+	width: 50%;
+	height: auto;
+}
+
+.alumni-detail{
+	width:100%;
+	padding: 15px;
+}
+
+.alumni-detail h4{
+	font-weight: 800;
+}
+
+.alumni-detail h5{
+	font-weight: 600;
+}
+
+.alumni-detail p{
+	margin: 0;
+}
+
+.alumni-card-2{
+	background-color: #fff;
+	border-radius: 3px;
+	border: 1px solid;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.alumni-profile-2{
+	height: auto;
+	display: inline-flex;
+}
+
+.alumni-detail-2{
+	width: 100%;
+	padding: 15px;
+	display: inline-flex;
+	background-color: #ff1631;
+	color: #fff;
+}
+
+.alumni-detail-2 h4{
+	font-weight: 800;
+}
+
+.alumni-detail-2 h5{
+	font-weight: 600;
+}
+
+.alumni-active-years{
+	width: 50%;
+	margin-left: 10%;
+	padding: 15px 0;
+}
+
+.alumni-active-years p{
+	margin: 0;
+	font-size:18px;
+}
+
+.alumni-mat-50{
+	width: 50%;
+	margin-top: 30px;
+}
+
+.alumni-wid-40{
+	width: 40%;
+}
+
+.alumni-wid-40 img{
+	margin-top: -95px;
+	border: 5px solid #fff;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+/*=======================================================================
+[06] Alumni ENDS
+=========================================================================*/
